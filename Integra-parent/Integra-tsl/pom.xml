@@ -14,14 +14,14 @@
 	<build>
 		<resources>
 			<resource>
-				<directory></directory>
+				<directory/>
 				<includes>
 					<include>LICENSE.txt</include>
 				</includes>
 				<targetPath>${basedir}/target/classes/META-INF</targetPath>
 			</resource>
 			<resource>
-				<directory></directory>
+				<directory/>
 				<includes>
 					<include>messages/**</include>
 				</includes>
@@ -162,12 +162,12 @@
 		<dependency>
 			<groupId>org.bouncycastle</groupId>
 			<artifactId>bcpkix-jdk15on</artifactId>
-			<version>1.60</version>
+			<version>1.69</version>
 		</dependency>
 		<dependency>
 			<groupId>org.bouncycastle</groupId>
 			<artifactId>bcprov-jdk15on</artifactId>
-			<version>1.60</version>
+			<version>1.69</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
